@@ -1,6 +1,8 @@
 import React from 'react';
 import WeatherExtraInfo from './WeatherExtraInfo';
 import WeatherTemperature from './WeatherTemperature';
+
+
 import {
     CLOUD,
     CLOUDY,
@@ -8,11 +10,12 @@ import {
      RAIN,
      SNOW,
      WINDY,
-} from '../constants/wathers';
+} from './../../../constants/wathers';
+import './styles.css';
 
 const WeatherData = ()=> (
     <div>
-        <WeatherTemperature temperature = {20} weatherState = {SUN}></WeatherTemperature>
+        <WeatherTemperature temperature = {20} weatherState = {CLOUDY}></WeatherTemperature>
         <WeatherExtraInfo humidity = {80} wind={'10 m/s'}></WeatherExtraInfo>
     </div>
 );
