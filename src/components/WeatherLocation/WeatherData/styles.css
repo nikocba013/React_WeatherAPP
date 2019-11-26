@@ -1,7 +1,45 @@
 .weatherExtraInfoCont {
-    background-color: grey;
+    /* background-color: grey; */
+    padding: 1px;
+    display: flex;
+    align-self: center;
 }
 
 .weatherTemperatureCont {
-    background-color: blue;
+    /* background-color: blue; */
+    padding: 1px;
+    display: flex;
+    align-self: center;
+}
+
+.weathers{
+    display: flex;    
+}
+
+.weatherInfoContent{
+    background: darkslategrey;
+    display: flex;
+    flex-direction: column;        
+}
+
+.weatherLocation{
+    background: cornsilk;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 100px;    
+    border-radius: 3px;
+    border-style: outset;
+    border-color: darksalmon;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2px;
+}
+
+.location{
+    display: flex;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
 }
